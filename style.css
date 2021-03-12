@@ -1,0 +1,203 @@
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.logo {
+        padding-left: 520px;
+        padding-top: 24px;
+}
+
+.navbutton {
+    text-decoration: none;
+    color: #F8F8F8;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 53px;
+    padding: 53px;
+}
+.headerhero {
+    background-image: url(images/backgroundimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 730px;
+    width: 1440px;
+    margin-bottom: 60px;
+}
+.herotext {
+    width: 650px;
+    height: 366px;
+    padding-bottom: 163px;
+    float: left;
+    padding-left: 100px;
+}
+.heroimage {
+    float: right;
+    padding-left: 10px;
+    padding-right: 100px; 
+}
+.aboutme {
+    background-color: #1C063B;
+    width: 1440px;
+    height: 706px;
+    padding-top: 37px;
+    padding-left: 100px;
+    padding-bottom: 154px;
+    display: flex
+}
+.whoami {
+    width: 400px;
+    height: 400px;
+}
+
+.tools {
+    width: 295px;
+    height: 400px;
+    padding-left: 72px;
+    padding-top: 153px;
+    text-align: center;
+}
+
+.skills {
+    width: 295px;
+    height: 400px;
+    padding-left: 178px;
+    padding-top: 153px;
+    text-align: center;
+}
+
+.recentprojects{
+    background-color: #1C063B;
+    width: 1440px;
+    height: 950px;
+    top: 1546px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    margin-top: 60px;
+    align-content: center;
+}
+.cards {
+    display: flex;
+}
+
+.card1 {
+    width: 400px;
+    height: 609px;
+    background-color: whitesmoke;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-left: 20px;
+    
+}
+
+.card2 {
+    width: 400px;
+    height: 609px;
+    background-color: whitesmoke;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+.card3 {
+    width: 400px;
+    height: 609px;
+    background-color: whitesmoke;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+h1{
+    color: #FFFFFF;
+    font-family:  'Nunito', sans-serif;
+    font-size: 59px;
+    font-weight: 700;
+    
+}
+
+h2{
+    color: white;
+    font-family:'Fredericka the Great', cursive;
+    font-weight: 400px;
+    font-size: 48px;
+    
+}
+h3{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700px;
+    font-size: 24px;
+    
+}
+h4{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.button{
+    display: inline-block;
+    padding: 15px;
+    margin: 15px;
+    width: 295px;
+    text-align: center;
+    color: white;
+    outline: 2px solid white;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    
+}
+
+.whiteactive {
+
+    background: linear-gradient(227.36deg, #F2A2B8 18.34%, #5005F2 72%);
+    box-sizing: border-box;
+    color: #1C063B
+}
+
+
+
+footer {
+    background-color: #1C063B;
+    height: 450px;
+    width: 1440px;
+    top: 2584px;
+    margin-top: 90px;
+   
+}
+footer p {
+    font-size: 12px;
+    font-family: 'Nunito', sans-serif;
+    color: #F8F8F8;
+    text-align: center;
+    padding-top: 20px;
+}
+.footerheading {
+    padding-left: 100px;
+}
+
+.socialmedia{
+    text-align: center;
+}
+.social {
+    display: inline-block;
+    align-items: right;
+}
+
