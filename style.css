@@ -165,15 +165,18 @@ a {
      margin-bottom: 1px;
     float:left;
 }
+.visualstudio p {
+   text-align: center;
+}
 
 .skills {
     width: 295px;
     height: 377px;
     padding-left: 178px;
     padding-top: 153px;
-    text-align: center;
-
+    border: 1px solid white;
 }
+
 
 .recentprojects{
     background-color: #1C063B;
@@ -321,8 +324,7 @@ footer {
     height: 450px;
     width: 1440px;
     top: 2584px;
-    margin-top: 90px;
-   
+    margin-top: 90px; 
 }
 footer p {
     font-size: 12px;

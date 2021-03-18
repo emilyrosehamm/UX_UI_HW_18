@@ -1,0 +1,15 @@
+.flexcontainer{
+    display: flex;
+    text-align: center;
+    
+}
+
+.research{
+    width: 33%;
+}
+.empathy{
+    width: 33%;
+}
+.interviews{
+    width: 33%;
+}
