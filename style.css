@@ -3,6 +3,9 @@
     margin-left: auto;
     margin-right: auto;
     width: 1440px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-row-gap: 60px;
 }
 .inline-block {
     display: inline-block;
@@ -10,8 +13,8 @@
     
 }
 .logo {
-        padding-left: 520px;
-        padding-top: 24px;
+    padding-left: 520px;
+    padding-top: 24px;
 }
 
 .navbutton {
@@ -36,7 +39,6 @@ a {
     background-repeat: no-repeat;
     height: 730px;
     width: 1440px;
-    margin-bottom: 60px;
 }
 .herotext {
     width: 650px;
@@ -60,15 +62,14 @@ a {
 }
 .whoami {
     width: 400px;
-    height: 400px;
+    height: 510px;
     padding-left: 100px;
 }
 
 .tools{
-    width: 297px;
-    height: 336px;
-    top: 933px;
-    left: 570px;
+    width: 400px;
+    height: 500px;
+    padding-left: 20px;
     align-content: center;
     padding-left: 70px;
     padding-top: 153px;
@@ -76,12 +77,17 @@ a {
     text-align: center;
     align-items: center;
     line-height: 19px;
+    padding-right: 100px;
+    padding-left: 51px;
+    padding-right: 52px;
+    padding-top: 67px;
+    padding-bottom: 131px;
 }
 
 .toolgallery p{
     color: #F8F8F8;
     font-family: 'Nunito', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     text-align: center;
 }
@@ -89,13 +95,9 @@ a {
 .toolgallery2 p{
     color: #F8F8F8;
     font-family: 'Nunito', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     text-align: center;
-}
-
-.toolgallery, .toolgallery2   {
-    position: relative;
 }
 
 .figma {
@@ -116,7 +118,7 @@ a {
     background-color: transparent;
     border: 1px solid transparent;
     margin-right: 10px;
-     margin-bottom: 1px;
+    margin-bottom: 1px;
     float:left;
 }
 
@@ -127,7 +129,7 @@ a {
     background-color: transparent;
     border: 1px solid transparent;
     margin-right: 10px;
-     margin-bottom: 1px;
+    margin-bottom: 1px;
     float:left;
 }
 
@@ -138,7 +140,7 @@ a {
     background-color: transparent;
     border: 1px solid transparent;
     margin-right: 10px;
-     margin-bottom: 1px;
+    margin-bottom: 1px;
     float:left;
     
 }
@@ -150,7 +152,7 @@ a {
     background-color: transparent;
     border: 1px solid transparent;
     margin-right: 10px;
-     margin-bottom: 1px;
+    margin-bottom: 1px;
     float:left;
     
 }
@@ -162,7 +164,7 @@ a {
     background-color: transparent;
     border: 1px solid transparent;
     margin-right: 10px;
-     margin-bottom: 1px;
+    margin-bottom: 1px;
     float:left;
 }
 .visualstudio p {
@@ -170,12 +172,30 @@ a {
 }
 
 .skills {
-    width: 295px;
-    height: 377px;
-    padding-left: 178px;
-    padding-top: 153px;
-    border: 1px solid white;
+    width: 400px;
+    height: 510px;
+    top: 933px;
+    padding-right: 100px;
+    padding-left: 52px;
+    padding-right: 53px;
+    padding-top: 67px;
+    padding-bottom: 66px;
 }
+
+.skills h4 {
+    text-align: center;
+}
+.skills p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+
+ .buttonunder{
+    position: absolute;
+    top: 1415px;
+    padding-left: 421px;
+} 
+
 
 
 .recentprojects{
@@ -184,7 +204,6 @@ a {
     height: 950px;
     top: 1546px;
     padding-top: 50px;
-    margin-top: 60px;
 }
 .recenttitle {
     padding-left: 100px;
@@ -324,7 +343,6 @@ footer {
     height: 450px;
     width: 1440px;
     top: 2584px;
-    margin-top: 90px; 
 }
 footer p {
     font-size: 12px;
